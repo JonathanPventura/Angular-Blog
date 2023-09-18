@@ -1,0 +1,60 @@
+.container__big__card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+  //border: 1px solid black;
+
+}
+
+.container__content__big__card{
+
+}
+
+.content__description__big__card{
+  //border: 1px solid rgb(255, 0, 0);
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 25px;
+}
+.info__big__card{
+  font-size: 15px;
+  color: rgba(88,130, 245, 0.774);
+}
+
+.title__big__card{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description__big__card{
+  margin-top: 15px;
+  color: gray;
+}
+.subscribe__big__card{
+
+}
+
+.subscribe__big__card > input{
+  width: 60%;
+  margin-right: 15px;
+
+}
+.subscribe__big__card > button,input{
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.subscribe__big__card > button{
+  background-color: rgb(63, 111, 243);
+  color: white;
+}
+
+.img__big__card > img{
+  width: 330px;
+  height: 360px;
+
+}
