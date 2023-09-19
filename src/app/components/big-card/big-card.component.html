@@ -13,8 +13,8 @@
 
     </div>
     <div class="subscribe__big__card">
-      <input type="text" placeholder="Email">
-      <button type="button">Subscribe</button>
+      <input type="text" placeholder="Email" id="email" [(ngModel)]="emailValue">
+      <button type="button" (click)="cadastroEmail()">Subscribe</button>
     </div>
   </div>
   <div class="img__big__card">

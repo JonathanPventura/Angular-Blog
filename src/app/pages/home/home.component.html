@@ -1,1 +1,31 @@
-<p>home works!</p>
+<div class="container__home">
+  <div class="big__card__home">
+    <app-big-card></app-big-card>
+  </div>
+  <div class="container__notice__home">
+    <div class="controller__notice__home">
+      <div class="content__notice__home">
+        <h2>Featured posts</h2>
+      </div>
+      <!--<div class="controller__card__home">
+        <button type="button" class="left" disabled>←</button>   Implementar
+        <button type="button" class="right">→</button>
+
+      </div> --->
+    </div>
+    <div class="small__card__home">
+      <app-small-card
+        [imgSmallCard]="'https://conteudo.imguol.com.br/c/bol/imagens/03/2019/01/09/uma-familia-da-pesada-1547068857072_v2_450x253.jpg'"
+        [titleSmallCard]="'Um titulo qualquer aqui'"
+        [descriptionSmallCard]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga, et minima at obcaecati aliquam dolorum dignissimos totam optio...'"></app-small-card>
+      <app-small-card
+        [imgSmallCard]="'https://conteudo.imguol.com.br/c/bol/imagens/03/2019/01/09/uma-familia-da-pesada-1547068857072_v2_450x253.jpg'"
+        [titleSmallCard]="'Um titulo qualquer aqui'"
+        [descriptionSmallCard]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga, et minima at obcaecati aliquam dolorum dignissimos totam optio...'"></app-small-card>
+      <app-small-card
+        [imgSmallCard]="'https://conteudo.imguol.com.br/c/bol/imagens/03/2019/01/09/uma-familia-da-pesada-1547068857072_v2_450x253.jpg'"
+        [titleSmallCard]="'Um titulo qualquer aqui'"
+        [descriptionSmallCard]="'Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fuga, et minima at obcaecati aliquam dolorum dignissimos totam optio...'"></app-small-card>
+  </div>
+
+</div>

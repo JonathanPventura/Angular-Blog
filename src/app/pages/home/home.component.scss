@@ -1,0 +1,19 @@
+
+.container__home{
+  width: 85%;
+  margin-left: 60px;
+}
+
+.controller__notice__home{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.small__card__home{
+  display: flex;
+
+}
+.small__card__home > app-small-card:not(:first-child) {
+  margin: 0 0 0 10px;
+}
