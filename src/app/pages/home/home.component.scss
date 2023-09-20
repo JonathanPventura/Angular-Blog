@@ -10,10 +10,10 @@
 
 }
 
-.small__card__home{
+.small__card__home > app-small-card{
   display: flex;
 
 }
-.small__card__home > app-small-card:not(:first-child) {
+.small__card__home > app-small-card > .container__small__card:not(:first-child) {
   margin: 0 0 0 10px;
 }

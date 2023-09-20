@@ -1,11 +1,11 @@
-<div class="container__small__card">
+<div class="container__small__card" *ngFor="let noticia of noticias">
   <div class="img_small__card">
-    <img [src]="imgSmallCard" alt="" srcset="">
+    <img [src]="noticia.photo" alt="" srcset="">
   </div>
   <div class="title__small__card">
-    <h1>{{titleSmallCard}}</h1>
+    <h1>{{noticia.title}} </h1>
   </div>
   <div class="description__small__card">
-    <p>{{descriptionSmallCard}}</p>
+    <p>{{noticia.description}}</p>
   </div>
 </div>
